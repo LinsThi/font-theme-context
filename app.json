@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "font-theme-context",
+    "slug": "font-theme-context",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "font-theme-context"
+}
