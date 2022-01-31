@@ -1,11 +1,17 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { SafeAreaView, StatusBar } from 'react-native';
+
+import FontProvider from './context/Font';
+import { Home } from './pages/Home';
 
 function App() {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Olá</Text>
-    </View>
+    <FontProvider>
+      <SafeAreaView style={{ flex: 1 }}>
+        <StatusBar />
+        <Home />
+      </SafeAreaView>
+    </FontProvider>
   );
 }
 
